@@ -51,6 +51,9 @@ E se queremos consultalo directamente ao servidor primario `dig @ns.danielcastel
 **10.Averigua cántas máquinas con distintas IPs están detrás do dominio web www.google.es, sempre son as mesmas e na mesma orde? por qué?**
 
 **11.Pregunta o mesmo a un server raiz (J.ROOTSERVERS.NET por exemplo) e comproba na resposta se o server acepta o modo recursivo**
+
 **12.Se queremos ver tóda-las queries que fai o servidor de DNS, qué opción temos que usar? averigua a IP de www.timesonline.co.uk, especifica os pasos dados**
+
 **13.Usando a información dispoñible a traveso do DNS especifica a máquina (nome e IP) ou máquinas que actúan como servers de correo do dominio danielcastelao.org**
+
 **14.Podes obter os rexistros AAAA de www.facebook.com? a qué corresponden?**
