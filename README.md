@@ -57,9 +57,23 @@ No me caso de google.com, y observe que el TTL original es 300 segundos.
 
 **10.Averigua cántas máquinas con distintas IPs están detrás do dominio web www.google.es, sempre son as mesmas e na mesma orde? por qué?**
 
-No meu caso, aparecíame que só a IP 142.250.184.3
+No meu caso, aparecíame que só a IP 142.250.184.3. Pero as IPs non son sempre as mismas e por tanto varian en cada consulta, polo sistema que usa Google de DNS.
 
 **11.Pregunta o mesmo a un server raiz (J.ROOTSERVERS.NET por exemplo) e comproba na resposta se o server acepta o modo recursivo**
+
+Ao realizar el comando `dig www.google.es @J.ROOT-SERVERS.NET` observamos que non acepta o modo recursivo coa mensaxe de Warning.
+
 **12.Se queremos ver tóda-las queries que fai o servidor de DNS, qué opción temos que usar? averigua a IP de www.timesonline.co.uk, especifica os pasos dados**
+
+Para ver todas as queries debemos usar a opción `+trace`.
+
+A IP de www.timesonline.co.uk podemela atopar na Answer Section
+
 **13.Usando a información dispoñible a traveso do DNS especifica a máquina (nome e IP) ou máquinas que actúan como servers de correo do dominio danielcastelao.org**
+ 
+Se realizamos o comando `dig danielcastelao.org MX`, onde MX significa (Mail Exchange), obtemos os nomes, onde obtemos que non ten servidor de mail .
+E se empregamos o comando `dig A mail.danielcastelao.org` obteremos a IP 
+
 **14.Podes obter os rexistros AAAA de www.facebook.com? a qué corresponden?**
+
+
