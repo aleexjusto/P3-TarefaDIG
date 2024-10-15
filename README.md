@@ -43,17 +43,23 @@ E se queremos consultalo directamente ao servidor primario `dig @ns.danielcastel
 
 **7.Consulta a IP de www.elpais.com. Cánto tempo queda almaceado o rexistro de recurso no DNS local?, se preguntas ó DNS local por este recurso, qué observas no TTL do rexistro?**
 
+No me caso aparece que o TTL é de 272 segundos, cun valor dinámico que vai decrecendo según pasa o tempo.
 
 
 **8.Busca o TTL de distintos nomes de dominio de servicios que escollas, a qué se poden deber as diferencias?**
 
+No me caso realicei `dig google.com`e `dig facebook.com`, onde no primerio caso o TTL é de 74 segundo e no se segundo de 60 segundos.
+As direcencias poden ser polo rendimento global, pola necesidad de cambios.
+
 **9.Determina o TTL máximo (original) dun nome de dominio.**
+
+No me caso de google.com, y observe que el TTL original es 300 segundos.
+
 **10.Averigua cántas máquinas con distintas IPs están detrás do dominio web www.google.es, sempre son as mesmas e na mesma orde? por qué?**
 
+No meu caso, aparecíame que só a IP 142.250.184.3
+
 **11.Pregunta o mesmo a un server raiz (J.ROOTSERVERS.NET por exemplo) e comproba na resposta se o server acepta o modo recursivo**
-
 **12.Se queremos ver tóda-las queries que fai o servidor de DNS, qué opción temos que usar? averigua a IP de www.timesonline.co.uk, especifica os pasos dados**
-
 **13.Usando a información dispoñible a traveso do DNS especifica a máquina (nome e IP) ou máquinas que actúan como servers de correo do dominio danielcastelao.org**
-
 **14.Podes obter os rexistros AAAA de www.facebook.com? a qué corresponden?**
