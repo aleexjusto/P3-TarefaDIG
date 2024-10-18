@@ -76,4 +76,5 @@ E se empregamos o comando `dig A mail.danielcastelao.org` obteremos a IP
 
 **14.Podes obter os rexistros AAAA de www.facebook.com? a qué corresponden?**
 
+Al usar el comando ` dif AAAA www.facebook.com ' podemos obter que os rexistros pertencen a enderezos IPv6
 
